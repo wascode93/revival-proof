@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1688845659073,
+  "index": "/revival-proof/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/revival-proof/favicon.ico",
+        "/revival-proof/index.html",
+        "/revival-proof/main.c92cdc160ac18754.js",
+        "/revival-proof/manifest.webmanifest",
+        "/revival-proof/polyfills.1c18ba28aafeef99.js",
+        "/revival-proof/runtime.a79591a532276c83.js",
+        "/revival-proof/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/revival-proof/assets/icons/icon-128x128.png",
+        "/revival-proof/assets/icons/icon-144x144.png",
+        "/revival-proof/assets/icons/icon-152x152.png",
+        "/revival-proof/assets/icons/icon-192x192.png",
+        "/revival-proof/assets/icons/icon-384x384.png",
+        "/revival-proof/assets/icons/icon-512x512.png",
+        "/revival-proof/assets/icons/icon-72x72.png",
+        "/revival-proof/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/revival-proof/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/revival-proof/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/revival-proof/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/revival-proof/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/revival-proof/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/revival-proof/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/revival-proof/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/revival-proof/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/revival-proof/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/revival-proof/index.html": "0eb32cdaa5808fdf8b83871bbee6f899798e4741",
+    "/revival-proof/main.c92cdc160ac18754.js": "314b29fdeb482f14c166c2245c35560e8d442df8",
+    "/revival-proof/manifest.webmanifest": "fdb6d5723ad9cc8f9e3fddaf4c89bf35ffa06534",
+    "/revival-proof/polyfills.1c18ba28aafeef99.js": "ecfcf18c12d6a4d72610c9eda390fa74c4bea7c0",
+    "/revival-proof/runtime.a79591a532276c83.js": "adf850b0d4b69cfe54fc3723ab60619334eb5938",
+    "/revival-proof/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
