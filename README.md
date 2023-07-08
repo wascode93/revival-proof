@@ -27,9 +27,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## Environment Setup
+```bash
+# 1. Install Node
+brew install nvm
 
-1. Install Node
-```brew install nvm```
-
-1. Install AngularCLI
-```npm install -g @angular/cli```
+# 2. Install AngularCLI 
+npm install -g @angular/cli
+```
