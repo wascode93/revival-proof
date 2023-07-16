@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1688927858657,
+  "timestamp": 1689541874483,
   "index": "https://wascode93.github.io/revival-proof/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://wascode93.github.io/revival-proof/favicon.ico",
         "https://wascode93.github.io/revival-proof/index.html",
-        "https://wascode93.github.io/revival-proof/main.c92cdc160ac18754.js",
+        "https://wascode93.github.io/revival-proof/main.2428ef7aca3ff24a.js",
         "https://wascode93.github.io/revival-proof/manifest.webmanifest",
         "https://wascode93.github.io/revival-proof/polyfills.1c18ba28aafeef99.js",
         "https://wascode93.github.io/revival-proof/runtime.a79591a532276c83.js",
@@ -52,8 +52,8 @@
     "https://wascode93.github.io/revival-proof/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "https://wascode93.github.io/revival-proof/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "https://wascode93.github.io/revival-proof/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://wascode93.github.io/revival-proof/index.html": "29b3523babc7077e47f2a1f00ca4c0e6d12dd0a4",
-    "https://wascode93.github.io/revival-proof/main.c92cdc160ac18754.js": "314b29fdeb482f14c166c2245c35560e8d442df8",
+    "https://wascode93.github.io/revival-proof/index.html": "d410166dfdbed5da79db104ac1ed46d4c71ff321",
+    "https://wascode93.github.io/revival-proof/main.2428ef7aca3ff24a.js": "9a640295c1fd97e610107013b897384cf200f323",
     "https://wascode93.github.io/revival-proof/manifest.webmanifest": "bd0f9c7bbd5f9200f5f31bd3e710f540992a7b53",
     "https://wascode93.github.io/revival-proof/polyfills.1c18ba28aafeef99.js": "ecfcf18c12d6a4d72610c9eda390fa74c4bea7c0",
     "https://wascode93.github.io/revival-proof/runtime.a79591a532276c83.js": "adf850b0d4b69cfe54fc3723ab60619334eb5938",
