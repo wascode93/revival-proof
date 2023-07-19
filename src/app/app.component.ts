@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AppService } from './app.service';
+import { Observable, map } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +8,18 @@ import { AppService } from './app.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'revival-proof';
+  title = 'Revival Proof';
+  fields$: Observable<any>;
+  records$: Observable<any>;
 
   constructor(private appService: AppService){
-    this.appService.getAll('object_23').subscribe(data => console.log(data));
+    // this.appService.getAllObjects('object_23').subscribe(objects => console.log("objects = ", objects));
+    this.fields$ = this.appService.getAllFields('object_23').pipe(
+      map((fields: any) => fields.fields)
+    );
+
+    this.records$ = this.appService.getAllRecords('object_23').pipe(
+      map((records: any) => records.records)
+    );
   }
 }
