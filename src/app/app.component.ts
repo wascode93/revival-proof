@@ -21,5 +21,7 @@ export class AppComponent {
     this.records$ = this.appService.getAllRecords('object_23').pipe(
       map((records: any) => records.records)
     );
+
+    // this.appService.getAllViewRecords().subscribe(data => console.log(data));
   }
 }
