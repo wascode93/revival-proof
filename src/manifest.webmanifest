@@ -1,8 +1,8 @@
 {
   "name": "Revival Proof",
   "short_name": "Revival Proof",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "theme_color": "#082039",
+  "background_color": "#082039",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
